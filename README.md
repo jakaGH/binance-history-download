@@ -30,7 +30,7 @@ A module to automatically download binance's historic data from spot and futures
 
 # use example
 modify the download_binance_price_history.py file to define 
-- the desired markets: SpotHistory, FuturesUHistory, FuturesCHistory("BCHUSD_PERP"),
+- the desired markets: SpotHistory, FuturesUHistory, FuturesCHistory,
 - the class methods to obtain the desired data: download_klines, download_agg_trade, download_trades, download_index_price_klines, download_mark_price_klines, download_premium_index_klines
 - kline intervals: "1m", "3m", "5m", "15m", "30m", "1h", "2h", "4h", "6h", "8h", "12h", "1d", "3d", "1w", "1mo",
 - starting month and year for download  
